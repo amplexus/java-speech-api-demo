@@ -70,6 +70,6 @@ public class HelloWorld {
       ex.printStackTrace ();
     }
 
-    // file.deleteOnExit ();	//Deletes the file as it is no longer necessary.
+    file.deleteOnExit ();	//Deletes the file as it is no longer necessary.
   }
 }
