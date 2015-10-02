@@ -51,7 +51,7 @@ public class HelloWorld {
     mic.close ();		//Ends recording and frees the resources
     System.out.println ("Recording stopped.");
 
-    Recognizer recognizer = new Recognizer (Recognizer.Languages.ENGLISH_US, "AIzaSyDYBwFji13OEXj3u-DBC0qDkIFNBVX1L9o");
+    Recognizer recognizer = new Recognizer (Recognizer.Languages.ENGLISH_US, System.getProperty("google-api-key"));
     //Although auto-detect is available, it is recommended you select your region for added accuracy.
     try {
       int maxNumOfResponses = 4;
