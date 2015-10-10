@@ -20,9 +20,9 @@
       <version>1.13.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>org.plwww</groupId>
+      <groupId>net.sourceforge.javaflacencoder</groupId>
       <artifactId>java-flac-encoder</artifactId>
-      <version>0.3.2-SNAPSHOT</version>
+      <version>0.3.7</version>
     </dependency>
   </dependencies>
 

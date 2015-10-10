@@ -3,7 +3,7 @@ package org.amplexus.speechdemo;
 import javax.sound.sampled.AudioFileFormat.Type;
 import javax.sound.sampled.*;
 import java.io.File;
-import org.plwww.flacencoder.FLACFileWriter;
+import net.sourceforge.javaflacencoder.FLACFileWriter;
 
 import com.darkprograms.speech.microphone.Microphone;
 import com.darkprograms.speech.recognizer.Recognizer;
